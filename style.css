@@ -210,31 +210,35 @@ margin-right: 25px;
 
 /* container 4 - education - bottom left  */
 .container-4 {
-    height: 500px;
+    height: 400px;
     width: 450px;
     border: 1px solid gray;
     background-color: white;
 }
 .gray-header-4 {
-    height: 100px;
+    padding: 15px;
+    height: 40px;
     background-color: rgb(73, 72, 72);
 }
 .education-4 {
+    margin-top: 8px;
+    margin-left: 15px;
+    color: white;
 
 }
 
 /*  */
 .history-4 {
-
+padding: 17px;
 }
 
 .history-dojo-4 {
-
+    font-size: larger;
 }
 
 /* affects all date categories */
 .date-4 {
-
+    color: gray;
 }
 
 /* affects all credentials categories */
@@ -243,10 +247,12 @@ margin-right: 25px;
 }
 
 .history-re-4 {
+    font-size: larger;
 
 }
 
-.history-US-4 {
+.history-ua-4{
+    font-size: large;
 
 }
 
@@ -255,8 +261,6 @@ margin-right: 25px;
 
 /*! container 5 - right column - holds 6&7 !*/
 .container-5 {
-    background-color: darkkhaki;
-    height: 900px;
 
 }
 
@@ -264,25 +268,57 @@ margin-right: 25px;
 
 /* container 6 - connections request - top right */
 .container-6 {
-    height: 400px;
-    width: 300px;
+    height: 200px;
+    width: 275px;
     border: 1px solid gray;
     background-color: white;
     margin-bottom: 50px;
 }
 
 .gray-header-6 {
-
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    height: 40px;
+    background-color: rgb(73, 72, 72);
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .two-6 {
+    height: 30px;
+    width: 30px;
+    font: large;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: lightgray;
+    color: gray;
+    text-align: center;
+    border: solid gray;
+    border-radius: 50%;
+    line-height: 30px;
+
 }
 
 .requests-6 {
+    color: white;
+    line-height: 40px;
+    
 
 }
+.new-requests-6 {
+    display: flex;
+    justify-content: center;
+}
+
 
 .todd-request-6 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 7px;
 
 }
 
@@ -290,16 +326,19 @@ margin-right: 25px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-right: 12px;
 }
 
 .todd-6 {
-
+    margin-right: 60px;
 }
 
 /* USED FOR TODD & PHIL */
 .check-icon-6 {
     height: 40px;
     width: 40px;
+    margin-right: 7px;
+
 
 }
 
@@ -307,20 +346,29 @@ margin-right: 25px;
 .x-icon-6 {
     height: 40px;
     width: 40px;
+    margin-right: 7px;
+
 }
 
 .phil-request-6 {
-
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 7px;
 }
 
 .phil-icon-6{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-right: 12px;
 
 }
 
 .phil-6 {
+    margin-right: 60px;
 
 }
 
@@ -328,8 +376,8 @@ margin-right: 25px;
 
 /* container 7 - friends - bottom right */
 .container-7 {
-    height: 400px;
-    width: 300px;
+    height: 375px;
+    width: 275px;
     border: 1px solid gray;
     background-color: white;
     margin-bottom: 50px;
@@ -337,31 +385,56 @@ margin-right: 25px;
 }
 
 .gray-header-7 {
-
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    height: 40px;
+    background-color: rgb(73, 72, 72);
+    display: flex;
 }
 
 .five-plus-7 {
-
+    height: 30px;
+    width: 60px;
+    font: large;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: lightgray;
+    color: gray;
+    text-align: center;
+    border: solid gray;
+    border-radius: 50%;
+    line-height: 30px;
 }
 
 .your-connections-7 {
-
+    color: white;
+    line-height: 40px;
 }
 
 /*  */
 
 .connections-list-7 {
+    margin-right: 20px;
+    padding: 15px;
+}
 
+.name-container-7 {
 }
 
 .adrien-connection-7 {
-    
-}
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 7px;}
 
 .adrien-icon-7 {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-right: 12px;
 
 }
 
@@ -370,13 +443,19 @@ margin-right: 25px;
 }
 
 .anne-connection-7 {
-    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 7px;
 }
 
 .anne-icon-7 {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-right: 12px;
 
 }
 
@@ -385,13 +464,18 @@ margin-right: 25px;
 }
 
 .alayne-connection-7 {
-    
-}
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 7px;}
 
 .alayne-icon-7 {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-right: 12px;
 
 }
 
@@ -400,18 +484,28 @@ margin-right: 25px;
 }
 
 .arry-connection-7 {
-    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 7px;
 }
 
 .arry-icon-7 {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-right: 12px;
 
 }
 
 .arry-7 {
     
+}
+/* */
+.hr-7 {
+
 }
 
 /*  */ 
@@ -425,7 +519,7 @@ margin-right: 25px;
 }
 
 .view-btn-7 {
-
+    margin-left: 20px;
 }
 
 
