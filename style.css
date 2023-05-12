@@ -101,8 +101,8 @@ margin-right: 25px;
 
 /*! container 2 - left colum - holds 3&4 !*/
 .container-2 {
-    background-color: darkgray;
-    flex: 2;
+    height: 900px;
+    margin-right: 50px;
     
 }
 
@@ -112,7 +112,7 @@ margin-right: 25px;
 
 .container-3{
     height: 250px;
-    width: 500px;
+    width: 450px;
     border: 1px solid gray;
     margin-bottom: 50px;
     background-color: white;
@@ -210,8 +210,8 @@ margin-right: 25px;
 
 /* container 4 - education - bottom left  */
 .container-4 {
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 450px;
     border: 1px solid gray;
     background-color: white;
 }
@@ -256,7 +256,7 @@ margin-right: 25px;
 /*! container 5 - right column - holds 6&7 !*/
 .container-5 {
     background-color: darkkhaki;
-
+    height: 900px;
 
 }
 
