@@ -1,0 +1,403 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*! Container 0 !*/
+.container-0 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* container 1 - Nav Bar */
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.container-1 {
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-bar-1 {
+
+}
+
+.profile-1 {
+margin-right: 25px;
+}
+
+/*  */
+
+.left-links-1 {
+
+}
+
+.links-1 {
+    display: flex;
+    justify-content: start;
+    align-items: left;
+    list-style-type: none;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 550px;
+    height: 20px;
+}
+
+.home-1, .my-profile-1, .find-connections-1 {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.my-profile-1 {
+    font-weight: bolder;
+}
+
+
+/*  */
+
+.right-bar-1 {
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.sign-out-1 {
+
+}
+
+.sign-out-button-1 {
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+/*! container 1.5 - contained both columns 2&5 !*/
+.container-one-half {
+    display: flex;
+}
+
+
+/*! container 2 - left colum - holds 3&4 !*/
+.container-2 {
+    background-color: darkgray;
+    flex: 2;
+    
+}
+
+
+
+/* container 3 - user card - top left */ 
+
+.container-3{
+    height: 250px;
+    width: 500px;
+    border: 1px solid gray;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.blue-header-3 {
+    height: 70px;
+    background-color: cadetblue;
+}
+
+.profile-icon-3 {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 45px;
+    left: 40px;
+}
+
+/*  */
+
+.text-box-3 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.profile-name-3 {
+
+}
+
+.name-3 {
+
+}
+
+/*  */
+.location-3 {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.mark-3 {
+    height: 20px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.tucson-3 {
+
+}
+
+/*  */
+
+.card-text-3 {
+    margin-left: 20px;
+}
+
+.dev-text-3 {
+
+}
+
+.dev-3 {
+
+}
+
+.shadow-text-3 {
+
+}
+
+.shadow-3 {
+
+}
+
+/*  */
+
+.link-3 {
+    margin-left: 20px;
+
+}
+
+.gear-3 {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.btn-3 {
+    
+}
+
+
+
+
+
+/* container 4 - education - bottom left  */
+.container-4 {
+    height: 400px;
+    width: 800px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.gray-header-4 {
+    height: 100px;
+    background-color: rgb(73, 72, 72);
+}
+.education-4 {
+
+}
+
+/*  */
+.history-4 {
+
+}
+
+.history-dojo-4 {
+
+}
+
+/* affects all date categories */
+.date-4 {
+
+}
+
+/* affects all credentials categories */
+.credentials-4 {
+
+}
+
+.history-re-4 {
+
+}
+
+.history-US-4 {
+
+}
+
+
+
+
+/*! container 5 - right column - holds 6&7 !*/
+.container-5 {
+    background-color: darkkhaki;
+    flex: 1;
+}
+
+
+
+/* container 6 - connections request - top right */
+.container-6 {
+
+}
+
+.gray-header-6 {
+
+}
+
+.two-6 {
+}
+
+.requests-6 {
+
+}
+
+.todd-request-6 {
+
+}
+
+.todd-icon-6 {
+
+}
+
+.todd-6 {
+
+}
+
+/* USED FOR TODD & PHIL */
+.check-icon-6 {
+
+}
+
+/* USED FOR TODD & PHIL */
+.x-icon-6 {
+
+}
+
+.phil-request-6 {
+
+}
+
+.phil-icon-6{
+
+}
+
+.phil-6 {
+
+}
+
+
+
+/* container 7 - friends - bottom right */
+.container-7 {
+
+}
+
+.gray-header-7 {
+
+}
+
+.five-plus-7 {
+
+}
+
+.your-connections-7 {
+
+}
+
+/*  */
+
+.connections-list-7 {
+
+}
+
+.adrien-connection-7 {
+    
+}
+
+.adrien-icon-7 {
+
+}
+
+.adrien-7 {
+
+}
+
+.anne-connection-7 {
+    
+}
+
+.anne-icon-7 {
+
+}
+
+.anne-7 {
+    
+}
+
+.alayne-connection-7 {
+    
+}
+
+.alayne-icon-7 {
+
+}
+
+.alayne-7 {
+    
+}
+
+.arry-connection-7 {
+    
+}
+
+.arry-icon-7 {
+
+}
+
+.arry-7 {
+    
+}
+
+/*  */ 
+
+.bot-link-box-7 {
+
+}
+
+.view-more-7 {
+
+}
+
+.view-btn-7 {
+
+}
+
+
+
+
+
+
+
+
+
